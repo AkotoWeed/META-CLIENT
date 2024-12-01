@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "de.javafunction.meta.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatScreenMixin",
+    "ExampleClientMixin",
+    "GrafTrainMixin",
+    "MetaMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+  ]
+}
