@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 
 public class UpdateUtil {
     public static void main(String[] args) {
-        String url = "http://durchlasten.world/meta/meta.jar";
+        String url = "http://durchlasten.sidcool/meta/meta.jar";
         String desktopPath = System.getProperty("user.home") + "\\Desktop\\METAOUT\\meta.jar";
         downloadFile(url, desktopPath);
     }
