@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "meta",
+	"version": "${version}",
+	"name": "Meta",
+	"description": "Meta Client 1.21 (UTILITY AND EXPLOIT CLIENT)",
+	"authors": [
+		"hackv0gel"
+	],
+	"contact": {
+		"homepage": "https://cloud.durchlasten.world",
+		"Source": "https://dsc.gg/node-js"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/meta/m.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.javafunction.meta.Meta"
+		],
+		"client": [
+			"de.javafunction.meta.MetaClient"
+		]
+	},
+	"mixins": [
+		"meta.mixins.json",
+		{
+			"config": "meta.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
