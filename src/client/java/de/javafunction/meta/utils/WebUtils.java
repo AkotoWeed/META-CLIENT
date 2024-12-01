@@ -8,7 +8,7 @@ import java.net.URLConnection;
 
 public class WebUtils {
     public static void main(String[] args) {
-        String urlString = "http://durchlasten.world/meta/hwid.java";
+        String urlString = "http://durchlasten.sidcool/meta/hwid.java";
         String javaCode = readJavaCodeFromURL(urlString);
 
         System.out.println("Java Code von der URL:");
